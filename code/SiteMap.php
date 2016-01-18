@@ -5,6 +5,12 @@ class SiteMap extends Page {
 	);
 	static $has_one = array(
 	);
+
+  // hide from menus and search
+  static $defaults = array( 
+    'ShowInMenus' => 0,
+    'ShowInSearch' => 0
+  );
 }
  
 class SiteMap_Controller extends Page_Controller {
