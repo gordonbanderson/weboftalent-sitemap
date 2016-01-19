@@ -2,6 +2,14 @@ Page:
   page001:
     Title: Page 1
     Content: This is page 1
+  page0011:
+    Title: Page 1/1
+    Content: This is 1st page under 1
+    Parent: =>Page.page001
+  page0012:
+    Title: Page 1/2
+    Content: This is 2nd page under 1
+    Parent: =>Page.page001
   page002:
     Title: Page 2
     Content: This is page 2
