@@ -2,7 +2,14 @@
 
 ## [Unreleased](https://github.com/gordonbanderson/weboftalent-sitemap/tree/HEAD)
 
-[Full Changelog](https://github.com/gordonbanderson/weboftalent-sitemap/compare/1.0.1...HEAD)
+[Full Changelog](https://github.com/gordonbanderson/weboftalent-sitemap/compare/1.0.2...HEAD)
+
+**Closed issues:**
+
+- Fix README [\#5](https://github.com/gordonbanderson/weboftalent-sitemap/issues/5)
+
+## [1.0.2](https://github.com/gordonbanderson/weboftalent-sitemap/tree/1.0.2) (2016-01-19)
+[Full Changelog](https://github.com/gordonbanderson/weboftalent-sitemap/compare/1.0.1...1.0.2)
 
 **Closed issues:**
 
