@@ -1,5 +1,17 @@
 # Change Log
 
+## [Unreleased](https://github.com/gordonbanderson/weboftalent-sitemap/tree/HEAD)
+
+[Full Changelog](https://github.com/gordonbanderson/weboftalent-sitemap/compare/1.0.1...HEAD)
+
+**Closed issues:**
+
+- Convert to PSR 2 [\#4](https://github.com/gordonbanderson/weboftalent-sitemap/issues/4)
+- Update and Add Continuous Integration [\#3](https://github.com/gordonbanderson/weboftalent-sitemap/issues/3)
+
+## [1.0.1](https://github.com/gordonbanderson/weboftalent-sitemap/tree/1.0.1) (2016-01-19)
+[Full Changelog](https://github.com/gordonbanderson/weboftalent-sitemap/compare/1.0.0...1.0.1)
+
 ## [1.0.0](https://github.com/gordonbanderson/weboftalent-sitemap/tree/1.0.0) (2016-01-18)
 
 
