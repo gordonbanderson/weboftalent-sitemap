@@ -10,14 +10,19 @@ class SiteMapTest extends FunctionalTest
         // pages need published, fixtures are not
 		foreach (Page::get() as $page) {
 			$page->doPublish();
+			error_log($page->ClassName . ':' . $page->Link());
 		}
 		$response = $this->get('/sitemap/');
         $this->assertEquals(200, $response->getStatusCode());
         $positions = array();
         $body = $response->getBody();
+
+        // assert is a sitemap
+       	$this->assertContains('<ul class="sitemap-list">', $body);
+
+       	// assert root level pages
         for ($i=1; $i <= 4; $i++) {
-        	$row = '<li class="link"><a href="/page-' . $i . '/" title="Page '
-        	. $i . '">Page ' . $i . '</a></li>';
+        	$row = '<li><a href="page-' . $i . '" title="Go to the Page ' . $i . ' page">Page ' . $i . '</a>';
         	$this->assertContains($row, $body);
 
         	$positions["{$i}"] = strpos($body, $row);
