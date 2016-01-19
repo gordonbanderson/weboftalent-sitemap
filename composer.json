@@ -2,20 +2,21 @@
 	"name": "weboftalent/sitemap",
 	"description": "SilverStripe module to add a simple sitemap to your website",
 	"type": "silverstripe-module",
-	"keywords": ["silverstripe", "sitemap"],
-	"authors": [
-		{
-			"name": "Gordon Anderson",
-			"email": "gordon.b.anderson@gmail.com",
-			"homepage": "https://github.com/gordonbanderson/weboftalent-sitemap",
-			"role": "Developer"
-		}
+	"keywords": [
+		"silverstripe",
+		"sitemap"
 	],
-    "support": {
-        "issues": "https://github.com/gordonbanderson/weboftalent-sitemap/issues"
-    },
-	"require":
-	{
+	"authors": [{
+		"name": "Gordon Anderson",
+		"email": "gordon.b.anderson@gmail.com",
+		"homepage": "https://github.com/gordonbanderson/weboftalent-sitemap",
+		"role": "Developer"
+	}],
+	"support": {
+		"issues": "https://github.com/gordonbanderson/weboftalent-sitemap/issues"
+	},
+	"require": {
 		"silverstripe/cms": "~3.1"
-	}
+	},
+	"license": "BSD-3-Clause"
 }
