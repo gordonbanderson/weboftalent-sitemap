@@ -33,3 +33,6 @@ Simply add a page of type 'SiteMap' to your site
 
 ## Silverstripe Version Compatibility
 3.1, 3.2
+
+##Notes
+* Build is currently failing with Postgres
