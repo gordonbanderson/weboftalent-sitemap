@@ -1,11 +1,11 @@
 This module simply adds a Page of type SiteMap and a template for that stylesheet
 
 ## Installation
-[![Build Status](https://travis-ci.org/gordonbanderson/weboftalent-sitemap.svg?branch=continuous_integration)](https://travis-ci.org/gordonbanderson/weboftalent-sitemap)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-sitemap/badges/quality-score.png?b=continuous_integration)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-sitemap/?branch=continuous_integration)
-[![Code Coverage](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-sitemap/badges/coverage.png?b=continuous_integration)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-sitemap/?branch=continuous_integration)
-[![Build Status](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-sitemap/badges/build.png?b=continuous_integration)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-sitemap/build-status/continuous_integration)
-[![codecov.io](https://codecov.io/github/gordonbanderson/weboftalent-sitemap/coverage.svg?branch=continuous_integration)](https://codecov.io/github/gordonbanderson/weboftalent-sitemap?branch=continuous_integration)
+[![Build Status](https://travis-ci.org/gordonbanderson/weboftalent-sitemap.svg?branch=master)](https://travis-ci.org/gordonbanderson/weboftalent-sitemap)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-sitemap/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-sitemap/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-sitemap/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-sitemap/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-sitemap/badges/build.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-sitemap/build-status/master)
+[![codecov.io](https://codecov.io/github/gordonbanderson/weboftalent-sitemap/coverage.svg?branch=master)](https://codecov.io/github/gordonbanderson/weboftalent-sitemap?branch=master)
 
 [![Latest Stable Version](https://poser.pugx.org/weboftalent/sitemap/version)](https://packagist.org/packages/weboftalent/sitemap)
 [![Latest Unstable Version](https://poser.pugx.org/weboftalent/sitemap/v/unstable)](//packagist.org/packages/weboftalent/sitemap)
@@ -17,7 +17,7 @@ This module simply adds a Page of type SiteMap and a template for that styleshee
 [![Dependency Status](https://www.versioneye.com/php/weboftalent:sitemap/badge.svg)](https://www.versioneye.com/php/weboftalent:sitemap)
 [![Reference Status](https://www.versioneye.com/php/weboftalent:sitemap/reference_badge.svg?style=flat)](https://www.versioneye.com/php/weboftalent:sitemap/references)
 
-![codecov.io](https://codecov.io/github/gordonbanderson/weboftalent-sitemap/branch.svg?branch=continuous_integration)
+![codecov.io](https://codecov.io/github/gordonbanderson/weboftalent-sitemap/branch.svg?branch=master)
 
     git clone git://github.com/gordonbanderson/weboftalent-sitemap.git
     cd weboftalent-sitemap
