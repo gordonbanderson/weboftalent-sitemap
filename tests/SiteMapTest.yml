@@ -1,0 +1,16 @@
+Page:
+  page001:
+    Title: Page 1
+    Content: This is page 1
+  page002:
+    Title: Page 2
+    Content: This is page 2
+  page003:
+    Title: Page 3
+    Content: This is page 3
+  page004:
+    Title: Page 4
+    Content: This is page 4
+  sitemap:
+    Title: SiteMap
+    Content: This is the sitemap
