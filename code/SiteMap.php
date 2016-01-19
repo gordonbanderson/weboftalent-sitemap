@@ -23,7 +23,7 @@ class SiteMap_Controller extends Page_Controller
 	public function SiteMap()
 	{
 		// Pages at the root level only
-		$rootLevel = DataObject::get('Page', 'ParentID = 0');
+		$rootLevel = Page::get()->filter('ParentID', 0);
 		$output = '';
 		$output = $this->makeList($rootLevel);
 		return $output;
