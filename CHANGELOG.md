@@ -1,8 +1,7 @@
 # Change Log
 
-## [Unreleased](https://github.com/gordonbanderson/weboftalent-sitemap/tree/HEAD)
-
-[Full Changelog](https://github.com/gordonbanderson/weboftalent-sitemap/compare/1.0.2...HEAD)
+## [1.0.3](https://github.com/gordonbanderson/weboftalent-sitemap/tree/1.0.3) (2016-01-19)
+[Full Changelog](https://github.com/gordonbanderson/weboftalent-sitemap/compare/1.0.2...1.0.3)
 
 **Closed issues:**
 
