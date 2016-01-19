@@ -1,17 +1,12 @@
-<% cached 'Sitemap', ID, LastEdited, FiveMins %>
-
-<h1 class="head">$Title</h1>
-<span class="txt">
-$Content
-<div id="sitemap">
-$SiteMap
+<% include SideBar %>
+<div class="content-container unit size3of4 lastUnit">
+	<article>
+		<h1>$Title</h1>
+		<div class="content">$Content</div>
+		<div id="sitemap">
+			$SiteMap
+		</div>
+	</article>
+		$Form
+		$CommentsForm
 </div>
-
-$PageComments
-
-</span><!--/txt-->
-
-
-<% end_cached %>
-
-$Form
