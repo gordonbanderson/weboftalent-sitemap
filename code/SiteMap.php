@@ -1,4 +1,5 @@
 <?php
+namespace Suilven\PageSiteMap;
 
 use SilverStripe\ErrorPage\ErrorPage;
 use SilverStripe\Core\Convert;

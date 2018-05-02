@@ -1,4 +1,5 @@
 <?php
+namespace Suilven\PageSiteMap\Tests;
 
 use SilverStripe\Dev\FunctionalTest;
 

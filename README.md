@@ -22,7 +22,7 @@ This module simply adds a Page of type SiteMap.  It will render a list of the en
 ## Installation
 
  ```bash
- composer require weboftalent/sitemap:~1
+ composer require weboftalent/sitemap:^1
  ```
 
 The name of the output directory does not matter
@@ -32,7 +32,7 @@ The name of the output directory does not matter
 Simply add a page of type 'SiteMap' to your site
 
 ## Silverstripe Version Compatibility
-3.1, 3.2
+3.1, 3.2 are available as ^1, use ^2 for SS4
 
 ##Notes
 * Build is currently failing with Postgres
