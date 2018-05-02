@@ -1,5 +1,8 @@
 # Change Log
 
+## [2.0.0](https://github.com/gordonbanderson/weboftalent-sitemap/tree/2.0.0) (2018-05-02)
+[Full Changelog](https://github.com/gordonbanderson/weboftalent-sitemap/compare/1.0.3...2.0.0)
+
 ## [1.0.3](https://github.com/gordonbanderson/weboftalent-sitemap/tree/1.0.3) (2016-01-19)
 [Full Changelog](https://github.com/gordonbanderson/weboftalent-sitemap/compare/1.0.2...1.0.3)
 
