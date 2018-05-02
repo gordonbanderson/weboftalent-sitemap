@@ -1,5 +1,10 @@
 <?php
 
+use SilverStripe\ErrorPage\ErrorPage;
+use SilverStripe\Core\Convert;
+use SilverStripe\ORM\DataObject;
+use PageController;
+
 class SiteMap extends Page
 {
   // hide from menus and search
@@ -9,7 +14,7 @@ class SiteMap extends Page
   );
 }
 
-class SiteMap_Controller extends Page_Controller
+class SiteMap_Controller extends PageController
 {
 	/**
 	* This function will return a unordered list of all pages on the site.

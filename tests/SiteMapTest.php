@@ -1,5 +1,7 @@
 <?php
 
+use SilverStripe\Dev\FunctionalTest;
+
 class SiteMapTest extends FunctionalTest
 {
     protected static $fixture_file = 'SiteMapTest.yml';
