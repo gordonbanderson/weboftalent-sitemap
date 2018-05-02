@@ -25,8 +25,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Suilven\\PageSiteMap\\": "src/",
-            "Suilven\\PageSiteMap\\Tests\\": "tests/"
+            "WebOfTalent\\PageSiteMap\\": "src/",
+            "WebOfTalent\\PageSiteMap\\Tests\\": "tests/"
         }
     },
 	"license": "BSD-3-Clause",
