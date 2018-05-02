@@ -10,23 +10,23 @@ class SiteMapTest extends FunctionalTest
     {
         $this->logInWithPermission('ADMIN');
         // pages need published, fixtures are not
-		foreach (Page::get() as $page) {
-			$page->doPublish();
-		}
-		$response = $this->get('/sitemap/');
+        foreach (Page::get() as $page) {
+            $page->doPublish();
+        }
+        $response = $this->get('/sitemap/');
         $this->assertEquals(200, $response->getStatusCode());
         $positions = array();
         $body = $response->getBody();
 
         // assert is a sitemap
         $count = substr_count($body, '<ul class="sitemap-list">');
-       	$this->assertEquals(2, $count);
+        $this->assertEquals(2, $count);
 
-       	// assert root level pages
+        // assert root level pages
         for ($i=1; $i <= 4; $i++) {
-        	$row = '<li><a href="page-' . $i . '" title="Go to the Page ' . $i . ' page">Page ' . $i . '</a>';
-        	$this->assertContains($row, $body);
-        	$positions["{$i}"] = strpos($body, $row);
+            $row = '<li><a href="page-' . $i . '" title="Go to the Page ' . $i . ' page">Page ' . $i . '</a>';
+            $this->assertContains($row, $body);
+            $positions["{$i}"] = strpos($body, $row);
         }
 
         //assert order
